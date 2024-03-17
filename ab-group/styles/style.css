@@ -394,7 +394,7 @@
 }
 
 .contact__list {
-  padding-left: 259px;
+  padding-left: clamp(3.125rem, 13.312vw + 0.213rem, 16.188rem);
 }
 
 .contact__list li {
@@ -740,14 +740,14 @@
     left: 0;
     position: absolute;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     grid-template-columns: 1fr;
     gap: 3px;
     padding: 80px 0;
     margin: 0;
     background: #012240;
     list-style-type: none;
-    transform: translateX(-100vw);
+    transform: translateY(-100vh);
     transition: 0.3s;
     width: 100%;
   }
@@ -853,5 +853,9 @@
 @media (width <=500px) {
   .title-text {
     letter-spacing: 0;
+  }
+
+  .navigation__list  {
+    flex-direction: column;
   }
 }
