@@ -486,7 +486,7 @@
 }
 
 .card__swiper-slide {
-  width: clamp(15.625rem, 27.3vw + 9.5rem, 40.625rem);
+  width: clamp(18.875rem, 37.143vw + 10.75rem, 40.25rem);
   /* width: 35.5vw; */
   /* max-width: 700px; */
   margin-inline: clamp(1.25rem, 2.069vw + 0.797rem, 3.125rem);
@@ -509,11 +509,11 @@
 }
 
 .card__logo {
-  width: clamp(3.125rem, 2.069vw + 2.672rem, 5rem);
-  height: clamp(3.125rem, 2.069vw + 2.672rem, 5rem);
+  width: clamp(1.1rem, 1vw + 2rem, 5rem);
+  height: clamp(1.1rem, 1vw + 2rem, 5rem);
   object-position: center;
   object-fit: contain;
-  margin: clamp(0.438rem, 0.552vw + 0.317rem, 0.938rem);
+  margin: clamp(0.438rem, 1vw + 0.617rem, 1.5rem);
 }
 
 .card__swiper-subtitle {
@@ -760,6 +760,7 @@
   }
   .seo__ab {
     width: 75%;
+    min-width: auto;
   }
 
   .subtitle-text {
