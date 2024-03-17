@@ -513,7 +513,7 @@
   height: clamp(1.1rem, 1vw + 2rem, 5rem);
   object-position: center;
   object-fit: contain;
-  margin: clamp(0.438rem, 1vw + 0.617rem, 1.5rem);
+  margin: clamp(0.875rem, 1.019vw + 0.652rem, 1.875rem);
 }
 
 .card__swiper-subtitle {
