@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "Manrope-Variable";
+	src: local("Manrope-Variable"),
+	  url(Manrope.woff2) format("woff2 supports variations"),
+	  url(Manrope.woff2) format("woff2-variations");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "YsabeauSC";
+	src: local("YsabeauSC"), url("YsabeauSC-Light.woff2") format("woff2");
+	font-weight: 300;
+  }
+  @font-face {
+	font-family: "YsabeauSC";
+	src: local("YsabeauSC_Regular"), url("YsabeauSC-Regular.woff2") format("woff2");
+	font-weight: 400;
+  }
+  @font-face {
+	font-family: "YsabeauSC";
+	src: local("YsabeauSC_SemiBold"), url("YsabeauSC-SemiBold.woff2") format("woff2");
+	font-weight: 600;
+  } 
+  @font-face {
+	font-family: "HelveticaNeueCyr";
+	src: local("HelveticaNeueCyr"), url("HelveticaNeueCyr-Light.woff") format("woff");
+	font-weight: 300;
+  } 
