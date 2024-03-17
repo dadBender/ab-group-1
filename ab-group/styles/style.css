@@ -152,9 +152,6 @@
   position: relative;
 }
 
-.footer .navigation__list {
-}
-
 .navigation__item {
   text-align: center;
 }
@@ -246,7 +243,7 @@
 
 .decor_lines-slider {
   background-color: var(--dark-text);
-  margin-block-start: 30px;
+  margin-block-start: 1.5em;
 }
 
 .article__title {
@@ -276,9 +273,6 @@
   background-color: var(--dark-text);
 }
 
-.main__slider {
-}
-
 .main__about {
   background-image: url(../images/about-bg.png);
   background-position: left;
@@ -289,7 +283,7 @@
   display: flex;
   padding-top: clamp(0.1rem, 4.8vw - 1rem, 4.375rem);
   padding-bottom: 70px;
-  margin-block-start: 95px;
+  margin-block-start: clamp(3.75rem, 2.953vw + 3.104rem, 5rem);
 }
 
 .main__about__container {
@@ -365,15 +359,6 @@
   position: relative;
   margin-top: clamp(2.813rem, 8.089vw + 1.043rem, 10.75rem);
   padding-bottom: clamp(3.125rem, 8.28vw + 1.314rem, 11.25rem);
-}
-
-.main__contacts::before {
-  content: "";
-  inset: 0;
-  position: absolute;
-  background-color: var(--mask-color);
-  opacity: 50%;
-  z-index: 0;
 }
 
 .article__title {
@@ -663,11 +648,7 @@
   .subtitle-text {
     letter-spacing: 0.3em;
   }
-
-  .seo__ab {
-  }
 }
-
 @media (width <=700px) {
   .burger-checkbox {
     position: absolute;
@@ -814,16 +795,6 @@
     max-height: 30px;
     margin: 10px;
   } */
-  .main__slider {
-  }
-  .main__about {
-    /* margin: 0px; */
-    /* padding-top: 37px; */
-  }
-  .header {
-  }
-  .main__contacts {
-  }
   .article__title {
     padding-bottom: 40px;
   }
