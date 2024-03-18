@@ -21,8 +21,12 @@
   /* height: 100vh; */
   padding-block-start: 24px;
   padding-block-end: 50px;
-  margin-block-end: clamp(1.563rem, 10vw - 0.625rem, 10.625rem);
-  gap: clamp(2.5rem, 22.93vw - 2.516rem, 25rem);
+  margin-block-end: clamp(1.563rem, 5vw - 1.9rem, 10.625rem);
+  gap: 20px;
+}
+
+.main__slider {
+  /* max-height: 50vh; */
 }
 
 .ears {
@@ -199,7 +203,7 @@
 .logo__header__ab {
   width: 160px;
   height: 160px;
-  margin: 45px;
+  margin-block-end: 20px;
 }
 
 .name__seo {
@@ -369,8 +373,9 @@
 }
 
 .card__swiper-slide {
-  width: clamp(18.875rem, 30vw + 5rem, 40rem);
-  margin-inline: clamp(1.25rem, 2.069vw + 0.797rem, 3.125rem);
+  max-width: 500px;
+  width: clamp(18.875rem, 23vw + 5rem, 40rem);
+  /* margin-inline: clamp(1.25rem, 2.069vw + 0.797rem, 3.125rem); */
 }
 
 .card__slide_img {

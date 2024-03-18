@@ -111,3 +111,30 @@ img {
   transform: rotate(-45deg);
   transition: bottom 0.3s, transform 0.3s 0.15s;
 }
+
+.navigation__link {
+	position: relative;
+	color: var(--light-text);
+	cursor: pointer;
+	line-height: 1; 
+	text-decoration: none; 
+
+}
+.navigation__link:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px;
+	background-color: var(--light-text); 
+	content: "";
+	transition: width 0.3s ease-out;
+}
+.navigation__link:hover:after,
+.navigation__link:focus:after {
+	width: 100%;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  color: var(--dark-text);
+}
