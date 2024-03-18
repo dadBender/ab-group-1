@@ -365,7 +365,7 @@
 .cards {
   margin-top: clamp(0.625rem, 4.459vw - 0.35rem, 5rem);
   width: 100%;
-  max-height: 433px;
+  /* max-height: 433px; */
   min-width: 0px;
   position: relative;
   display: block;
@@ -547,6 +547,9 @@
 @media (width <=900px) {
   .subtitle-text {
     letter-spacing: 0.3em;
+  }
+  .card__swiper-wrapper {
+    column-gap: 50px;
   }
 }
 @media (width <=700px) {
