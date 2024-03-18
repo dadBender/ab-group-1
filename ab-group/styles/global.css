@@ -135,6 +135,27 @@ img {
 	width: 100%;
 }
 
-.swiper-button-next:after, .swiper-button-prev:after {
+.swiper-button-next, .swiper-button-prev {
   color: var(--dark-text);
+  background-color: var(--light-text);
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid var(--dark-text);  
+  transform: translateY(-69%) ;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+ display: none;
+}
+
+.swiper-button-next {
+  background-image: url(../icons/swiper__left.svg);
+}
+
+.swiper-button-prev {
+  background-image: url(../icons/swiper__right.svg);
 }
