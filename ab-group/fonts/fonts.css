@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
 	font-family: "Manrope-Variable";
 	src: local("Manrope-Variable"),
 	  url(Manrope.woff2) format("woff2 supports variations"),
@@ -25,4 +25,14 @@
 	font-family: "HelveticaNeueCyr";
 	src: local("HelveticaNeueCyr"), url("HelveticaNeueCyr-Light.woff") format("woff");
 	font-weight: 300;
+  }  */
+  @font-face {
+	font-family: "agopus";
+	src: local("agopus"), 
+	url("agopus.woff") format("woff supports variations"),
+	url("agopus.woff") format("woff-variations"),
+	url("agopus-roman.ttf") format("ttf supports variations"),
+	url("agopus-roman.ttf") format("ttf-variations");
+
+	font-display: swap;
   } 

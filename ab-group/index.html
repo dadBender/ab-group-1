@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
     <meta name="color-scheme" content="light" />
     <link rel="icon" href="svg/logo.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="icons/AB LOGO.png"/>
@@ -20,7 +21,13 @@
   </head>
 
   <body class="page">
-    <header class="header">
+    <header class="header"> 
+      <div class="border__checkbox"></div>
+      <div class="border__checkbox-search">
+        <img class="search__icons" src="./icons/seaarch.png">
+          
+      </div>
+
       <nav class="navigation navigation__header ears">
           <a href="/">
           <figure>
@@ -29,6 +36,7 @@
           </a>
           <input type="checkbox" id="burger-checkbox" class="burger-checkbox" />
           <label for="burger-checkbox" class="burger"></label>
+         
         <ul class="navigation__list menu-list">
           
           <li class="navigation__item menu-item">
@@ -73,7 +81,7 @@
         </h2>
         <div class="cards">
           <div class="swiper card__swiper">
-            <ul class="swiper-wrapper card__swiper-wrapper">
+            <ul class="swiper-wrapper card__swiper-wrapper card__swiper-wrapper__up">
               <li class="swiper-slide card__swiper-slide">
                 <a href="https://myasnoy.ab-group-holding.uz/" target="_blank">
                 <figure class="card__slide_figure">
@@ -229,14 +237,14 @@
       <article class="main__slider slider__franchise">
         <h2 class="slider__title">
           <span class="decor_lines decor_lines-slider"></span>
-          <span class="subtitle-text">Франшиза</span>
+          <span class="subtitle-text">Партнерские проекты</span>
           <span class="decor_lines decor_lines-slider"></span>
         </h2>
 
         <section class="slider__container">
             <div class="cards">
               <div class="swiper card__swiper">
-                <ul class="swiper-wrapper card__swiper-wrapper">
+                <ul class="swiper-wrapper card__swiper-wrapper card__swiper-wrapper__bottom">
                   <li class="swiper-slide card__swiper-slide">
                     <a href="https://syrovarnya.ab-group-holding.uz/" target="_blank">
                     <figure class="card__slide_figure">
@@ -362,7 +370,7 @@
                 target="_blank"
                 class="main__contacts__link"
               >
-                Ташкент, Мирзо- Улугбекский район, улица Шастри, 19А
+                Ташкент, Мирзо-Улугбекский район, улица Шастри, 19А
               </a>
             </li>
           </ul>
